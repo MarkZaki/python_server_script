@@ -7,8 +7,8 @@ by installing `pyintsaller`
 pip install pyinstaller
 ```
 - Then run `pyinstaller server.py` to create a binary.
-- You'll find `build` and `dist` folders created, Go to `dist` and there will be a file named `server`
-- copy it next to your `index.html` file and use the next command to spin off the server if you are on linux
+- You'll find `build` and `dist` folders created, Go to `dist` and copy all of its contents in th e same frontend directory
+- use the next command to spin off the server if you are on linux
 ```
 ./server 8080 
 ```
